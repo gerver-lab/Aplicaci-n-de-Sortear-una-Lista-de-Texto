@@ -12,6 +12,7 @@
 Se va realizar la craación de la variable amigos y ahi es donde se agegará el array.
 
 let amigos = [];
+
 <h3>2. Insertar Función de Agregar Amigos en el Array </h3>
 Por consiguiente se realizara la integración de una función para agregar amigos a nuestro array e limpiar cada que se precione el boton de agregar amigo, como se detalla en el siguietne codigó.
 
@@ -32,7 +33,7 @@ function agregarAmigo() {
 
 Luego añadimos la función de actualizar la lista de amigos, el cual limpia la lista existente, busca dentro del array y se usa el ** <li> **  para agregar cada elemento, y por consiguiente mostrar la lista en la consola.
   
-  **function actualizarListaAmigos() {
+function actualizarListaAmigos() {
     const lista = document.querySelector("#listaAmigos");
     lista.innerHTML = "";
 
