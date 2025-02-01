@@ -10,8 +10,8 @@
 <h2>Estructura del Código</h2>
 <h3>1. Creación del Array</h3>
 Se va realizar la craación de la variable amigos y ahi es donde se agegará el array.
-
-  let amigos = [];
+ 
+ let amigos = [];
 
 <h3>2. Insertar Función de Agregar Amigos en el Array </h3>
 Por consiguiente se realizara la integración de una función para agregar amigos a nuestro array e limpiar cada que se precione el boton de agregar amigo, como se detalla en el siguietne codigó.
