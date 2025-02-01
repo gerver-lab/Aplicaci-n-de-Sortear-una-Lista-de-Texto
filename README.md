@@ -12,3 +12,21 @@
 Se va realizar la craación de la variable amigos y ahi es donde se agegará el array.
 ```javascript
 let amigos = [];
+```
+Por consiguiente se realizara la integración de una función para agregar amigos a nuestro array e limpiar cada que se precione el boton de agregar amigo, como se detalla en el siguietne codigó.
+
+function agregarAmigo() {
+    const input = document.querySelector("#amigo");
+    const nombre = input.value;
+
+    if (nombre === "") {
+        alert("Por favor, inserte un nombre.");
+        return;
+    }
+
+    amigos.push(nombre);
+    console.log("Amigos actuales:", amigos);
+
+    input.value = "";
+    actualizarListaAmigos();
+}
